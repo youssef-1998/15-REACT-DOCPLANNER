@@ -3,7 +3,7 @@ import PlacesCard from './places-card'
 
 const lieux = [
     {
-        picture: "https://www.docplanner.com/images/warsaw.png",
+        picture: "https://www.docplanner.com/images/warsaw.png ",
         titre: "Warsaw",
         btn: "See Openings"
 
@@ -41,20 +41,10 @@ const lieux = [
 
 const Places = () => {
     return (
-
-
         <div className="places">
             <div className="ligne-1">
-
-                <div className="l1-img1 Shadow">
-
                 {lieux.map(x => <PlacesCard el={x} /> )}
-
-                </div>
-
-
             </div>
-        
         </div>
 
 
